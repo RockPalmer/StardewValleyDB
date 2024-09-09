@@ -18,9 +18,9 @@ COPY INTO product_sell_price(bears_knowledge,farming_profession_id_1,farming_pro
 COPY INTO product_structure(product_id,product_structure_id,structure_id) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO product_type(product_id,product_type_id,type_id) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO profession(profession_id,profession_id_required,profession_name,skill_id,skill_level) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
-COPY INTO Quality(quality_id,quality_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
+COPY INTO quality(quality_id,quality_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO season(season_id,season_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
-COPY INTO Skill(skill_id,skill_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
+COPY INTO skill(skill_id,skill_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO soil_quality(chance,farming_level,fertilizer_id,quality_id,soil_quality_id) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO special_day_status(description,special_day_status_id) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
 COPY INTO store(store_id,store_name) WITH FILE_TYPE = 'CSV', FIELDTERMINATOR = '%', NULL_IF = ('','NULL');
